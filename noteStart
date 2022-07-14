@@ -1,8 +1,11 @@
 from array as array
 
+#Remember, the formula for wavelength is Speed of light/Frequency and the sped of light is 299792458 m/s
+#Middle C has a hertz of 261.63. This essentially means that it is completing its cycle 261.63 times per second.
+loop = 10000
+start = 0
+speed = 100
 equalTemp = [
-  #Remember, the formula for wavelength is Speed of light/Frequency and the sped of light is 299792458 m/s
-
   16.35,  #Wavelength 2109.89 cm C,
   17.32,  #Wavelength 1991.47 cm C#/Db
   18.35,  #Wavelength 1879.69 cm D
@@ -18,7 +21,7 @@ equalTemp = [
   16.35   #Wavelength 1054.94 B#/C
   ]
   
-  # Poly Rhythm Chart
+  # Poly Rhythm Chart (winsound.Beep(Frequency in hertz, duration in ms)
   # Root 1:1
   # 2nd  9:8
   # Min3 6:5
@@ -29,4 +32,11 @@ equalTemp = [
   # Maj6 5:3
   # 7    15:8
   
-  
+  while(start < loop){
+   winsound.Beep(1000,(3 * speed))
+   start++
+  }
+    while(start < loop){
+   winsound.Beep(1000,(2*speed))
+   start++
+  }
