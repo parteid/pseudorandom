@@ -1,0 +1,32 @@
+from array as array
+
+equalTemp = [
+  #Remember, the formula for wavelength is Speed of light/Frequency and the sped of light is 299792458 m/s
+
+  16.35,  #Wavelength 2109.89 cm C,
+  17.32,  #Wavelength 1991.47 cm C#/Db
+  18.35,  #Wavelength 1879.69 cm D
+  19.45,  #Wavelength 1774.20 D#/Eb
+  20.60,  #Wavelength 1674.62 E
+  21.83,  #Wavelength 1580.63 F
+  23.12,  #Wavelength 1491.91 F#/Gb
+  24.50,  #Wavelength 1408.18 G
+  25.96,  #Wavelength 1329.14 G#/Ab
+  16.35,  #Wavelength 1254.55 A
+  16.35,  #Wavelength 1184.13 A#/Bb
+  16.35,  #Wavelength 1117.67 B
+  16.35   #Wavelength 1054.94 B#/C
+  ]
+  
+  # Poly Rhythm Chart
+  # Root 1:1
+  # 2nd  9:8
+  # Min3 6:5
+  # Maj3 5:4
+  # 4    4:3
+  # 5    3:2
+  # Min6 8:5
+  # Maj6 5:3
+  # 7    15:8
+  
+  
